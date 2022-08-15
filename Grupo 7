@@ -1,0 +1,26 @@
+estilos.css
+
+#borde{
+    border-style: double ;
+    background-color: #ade4ca;
+    margin: 25px 50px 75px 100px;
+    text-align: center;
+}
+.acceso{
+    border-style: solid;
+    border-width: 7em;
+    border-color: rgb(201, 161, 161);
+    border-radius: 15em;
+    background-color: #828585;
+    margin: 25px 50px 75px 100px;
+    text-align: center;
+    padding: 25px 1px 25px 1px;
+
+}
+.fondo{
+    background-color: #f5e79c ;
+}
+.footer{
+    
+    text-align: center;
+}
