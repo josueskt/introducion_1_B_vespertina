@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museo de cera</title>
+    <link rel="sshortcut icon" href="../img/icono.ico">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="../index.html">
+                <img src="../img/logo" class="logo"> 
+              </a>
+            <nav>
+                <a href="../index.html">Inicio</a>             
+            </nav>
+        </div>
+    </header>
+    <main> 
+        <img src="../img/banner.png" class="banner"> 
+
+       <form action="proceso.php" method="post" class="formulario">            
+             <img src="../img/login.png" class="login">
+            <h1>BIENVENIDO</h1>
+            <div>
+                    <label for="email">Usuario:
+                        <input type="email" id="email" placeholder="Ingrese su correo " name="email" required>
+                    </label>
+            </div>
+            <div>
+                    <label for="pwd">Contraseña:
+                        <input type="password"  id="pwd" placeholder="Ingrese su clave" name="pwd" maxlength="10" size="10" required>                 
+                   </label>
+            </div>
+            <div>   
+                <button type="submit">Entrar</button>                     
+            </div>
+            <div>
+                <p>¿No tienes una cuenta?<a href="registro.html">Registrate</a></p>
+            </div>
+       </form>         
+    </main>
+    <footer>
+        <div class="barra-footer">  
+            &copy; Derechos Reservados-2022
+       </div>   
+    </footer> 
+</body>
+</html>

@@ -1,0 +1,171 @@
+header
+{
+ 	top: 0;
+ 	width: 100%; 	
+ 	background-color: white;
+}
+header .container
+{
+ 	display:flex;
+ 	justify-content: space-between;
+ 	align-items:center;
+}
+header .container .logo
+{
+ 	width:100px;
+}
+
+header .container nav a
+{
+	color:gray;
+	text-decoration:none;
+	margin:0 5px;
+}
+main img
+{
+	width: 100%;	
+}
+
+h1{
+	color:white;
+	font-size: 35px;	
+}
+
+p        
+{
+	color: orange;
+	font-size: 20px;
+}
+
+.bloque-inicio            
+{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	width: 400px;
+	text-align: center;
+	margin-left: -200px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100vh;
+}
+
+footer  
+{
+	background-color: black;
+	color: white;
+	padding-bottom: 20;
+	
+}
+
+footer ul 
+{
+	list-style: none;
+}
+
+footer ul li  
+{
+	margin-bottom: 10px;	
+}
+
+footer a 
+{
+	color: white;
+	text-decoration:none;
+}
+
+footer .redes 
+{
+	display: flex;	
+}
+
+footer .redes a 
+{
+	margin: 0 8px;
+}
+footer .barra-footer
+{
+	background-color: grey;
+	text-align: center;
+	padding: 20px 15px 20px 15px;
+}
+.formulario{
+	width: 320px;
+	height: 420px;
+	background-color: #1893d0;
+	background-image: linear-gradient(160deg, #1893d0 0%, #e4efe5 100%);
+	color: black;
+	top: 50%;
+	left: 50%;		
+	box-sizing: border-box;
+	padding: 50px 30px;
+	position: absolute;
+	transform: translate(-50%, -50% );
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-radius: 20px;
+}
+.login{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top:-50px;
+	left: calc(50% - 50px);
+}
+
+.formulario h1{
+	margin: 0;
+	padding: 0 0 20 px;
+	text-align: center;
+	font-size: 22px;
+}
+.formulario input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.formulario input[type="email"],
+.formulario input[type="password"]
+{
+	border:none;
+	border-bottom: 1px solid white;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+	font-size: 16px;
+	width: 100%;
+
+}
+ 
+button
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background-color: black;
+	color: white;
+	font-size: 18px;		
+	width: 100%;
+}
+.formulario p
+{
+ color: black;
+}
+.formulario a
+{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: black;
+}
+.formulario a:hover
+{
+	color:white;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar tu cita</title>
+    <link rel="sshortcut icon" href="../../img/icono.ico">    
+    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="estiloscita.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="../index.html">
+                <img src="../img/logo" class="logo"> 
+              </a>
+            <nav>
+                <a href="../../index.html">Inicio</a>                
+                </nav>
+        </div>            
+        <div class="container-contenedor">  
+            <center><div id="areglo"></div></center>          
+            <form action="" class="formulario2">
+                 <div class="row">
+                    <div class="col">
+                        <img src="../../img/registro.png" alt="">
+                    </div>
+                    <div class="col">
+                        <h1>Agendar su cita</h1>
+                    </div>                                        
+                 </div>   
+                 <div class="reg">                    
+                        <input type="text" name="" id="nombre" autofocus> 
+                        <label for="">Nombre y Apellido</label>                  
+                 </div>                               
+                 <div class="reg">                    
+                        <input type="text" name="" id="telefono"> 
+                        <label for="">Telefono</label>                   
+                 </div>                 
+                 <div class="reg">                   
+                        <input type="text" name="" id="correo">
+                        <label for="">Correo Electronico</label>                    
+                 </div>
+                 <div class="reg">                   
+                        <input type="date" name="fecha"id="date">  
+                        <label for="">Fecha de tu cita</label>                  
+                 </div> 
+                 <div class="reg">                        
+						Elije tu horario de visita:<select name="elije" id="elije">
+						<option>9h a 11h</option>
+						<option>11h a 13h</option>
+						<option>13h a 15h</option>
+						<option>15h a 16.30h</option>						
+						</select>					               
+                 </div>              
+                 <div class="reg">
+                    <button onclick="citas()">Enviar</button>                    
+                 </div>
+                 <div class="reg">
+                    <a href="../login.html">atras</a>                  
+                 </div>
+            </form>
+            
+        </div>
+        <script src="../js/cita.js"></script>               
+    </header>    
+    <main>       
+    </main>
+    <footer>
+        <div class="barra-footer">  
+            &copy; Derechos Reservados-2022
+       </div>   
+    </footer>      
+</body>
+</html>
