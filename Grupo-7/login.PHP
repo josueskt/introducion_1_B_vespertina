@@ -13,7 +13,8 @@ login.PHP
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="bodyphp">
+     <h3 class="tusimotitle">Tusismo en el Ecuador</h3>
     <div>
         <div class="container">
             <form action="proceso.php"  method="post" class="was-validated">
@@ -36,25 +37,27 @@ login.PHP
         </div>
     </div>
 
+       <div  class="imagenphp">
+        <br>
+        <img src="./imagen/logophp.png" alt="" width="300px" height=""300px >
+        <br>
+    </div>
+    <br>
+    <footer class="footer">
+        <h3>Integrantes Grupo 7</h3>
+    <p>
+        Bryan Latacumba <br><hr>
+        Stefany Salasar<br><hr>
+        Maryangeli Cordero<br><hr>
+    </p>
+</footer>
+
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 
-    <style type="text/css">
-
-        body {
-            padding-left: 5em;
-            padding-right: 5em;
-            padding-top: 2em;
-            color: rgb(7, 7, 7);
-            background-color: #aff191b2;
-            font-family: Georgia, "Times New Roman";
-        }
-
-        #boton{
-            margin-left: 7em;
-        }
-    </style>
+   
    
 </html>
