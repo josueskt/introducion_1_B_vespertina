@@ -1,0 +1,49 @@
+.bodyphp{
+    background-color: rgb(180, 109, 109);
+}
+.container{
+    background-color: rgb(228, 176, 210);
+    box-shadow: 0 0 5px #ceb993, 0 0 25px #030302, 0 0 50px #e4b359, 0 0 200px #b6a143;
+    border-radius: 20px;
+  
+}
+.was-validated{
+    border: solid 3px;
+    border-radius: 15px;
+}
+.footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(250deg, rgb(68, 168, 175) 0%, rgb(163, 122, 33) 35%, rgb(182, 172, 35) 100%);
+    box-shadow: 0 0 5px #9b1956, 0 0 25px #ce62b3, 0 0 50px #c59946, 0 0 200px #d1cfc5;
+
+}
+
+.imagenphp{
+    float:right;
+    margin-right: 600px;
+}
+.imagenphp {
+float: right;
+animation: movimiento 4.5s linear infinite;
+}
+.imagenphp img{
+  width: 300px;
+  height: 195px;
+  display: block;
+    }
+    @keyframes movimiento{
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateX(10%);
+        }
+        100%{
+            transform: translateY(0)
+        }
+    }
+    .tusimotitle{
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 40%;
+    }
+
