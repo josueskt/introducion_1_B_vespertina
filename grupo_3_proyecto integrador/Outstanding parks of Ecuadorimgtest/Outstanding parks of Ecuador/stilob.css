@@ -1,0 +1,17 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+h1{
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 30px;
+}
+image{
+	position: absolute;
+	padding: 30px;
+	transform: translate(20%,10%);
+	width: 80px;
+	height: 150px;
+}

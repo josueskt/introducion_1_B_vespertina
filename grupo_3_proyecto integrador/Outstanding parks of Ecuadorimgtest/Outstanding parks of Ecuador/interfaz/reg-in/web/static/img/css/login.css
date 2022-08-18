@@ -1,0 +1,181 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+    color: #1b262c;
+    
+    margin: 0;
+    background: rgb(201,212,21);
+    background: linear-gradient(90deg, rgb(255, 202, 254) 0%, rgba(70,113,172,0.9724264705882353) 38%, rgba(124, 46, 155, 0.953) 100%);
+}
+
+#contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+}
+
+#central {
+    max-width: 320px;
+    width: 100%;
+}
+
+.titulo {
+    font-size: 250%;
+    color:#bbe1fa;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#login {
+    width: 100%;
+    padding: 50px 30px;
+    background-color: #ffd18842;
+    
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    box-sizing: border-box;
+}
+
+#login input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: #1b262c;
+    
+    display: block;
+    width: 100%;
+    height: 40px;
+    
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+#login input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: #a01818;
+}
+
+#login button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color:#1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    background-color: #edabf5;
+    
+    margin-top: 10px;
+}
+
+#login button:hover {
+    background-color: #680860;
+    color:#ffffff;
+}
+
+.pie-form {
+    font-size: 90%;
+    text-align: center;    
+    margin-top: 15px;
+}
+
+.pie-form a {
+    display: block;
+    text-decoration: none;
+    color: #010407;
+    margin-bottom: 3px;
+}
+
+.pie-form a:hover {
+    color: #0f4c75;
+}
+
+.inferior {
+    margin-top: 10px;
+    font-size: 90%;
+    text-align: center;
+}
+
+.inferior a {
+    display: block;
+    text-decoration: none;
+    color: #000407;
+    margin-bottom: 3px;
+}
+
+h1{
+    color:red
+}
+
+footer{
+    background:gray;
+}
+.formulario{
+    background-color: blue;
+    border: solid 2px blue;
+    border-radius:20px ;
+
+}
+header{
+    background: gray;
+    height: 70px;
+}
+.btn btn-primary{
+    color: #92249c;
+}
+.inicio{
+    display: flex;
+   position: relative;
+    height: 60px;
+    width: 60px;
+    left: 30px;
+    top: 5px;
+  
+  
+  }
+  #inicio img{
+    transition: 300ms;
+  }
+  #inicio img:hover{
+    transform: scale(1.15);
+    transform: rotate(-90deg);
+  }
+table{
+    border-collapse: collapse;
+}
+table, td, th {
+    border: 2px solid orange;
+    padding:20px;
+}
+button{
+    color:white;
+    font-weight:bold;
+    background-color:orange;
+    width:100px;
+    height:25px;
+    font-size:15px;
+}

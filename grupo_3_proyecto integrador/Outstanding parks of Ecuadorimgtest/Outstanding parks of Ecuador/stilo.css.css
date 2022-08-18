@@ -1,0 +1,162 @@
+
+body{
+	position: relative;
+	text-align: center;
+	background-image: url(img/back_ground_purple.png);
+}
+header{
+	background: rgb(201,212,21);
+background: linear-gradient(90deg, rgb(255, 202, 254) 0%, rgba(70,113,172,0.9724264705882353) 38%, rgba(124, 46, 155, 0.953) 100%);
+	height: 50px;
+	width: 100%;
+}
+.inicio{
+	
+	top: 2%;
+	
+	position: absolute;
+	background-color: #030303;
+	width: 100px;
+	height: 20px;
+	right: 50px;
+	border-radius: 10%;
+	
+}
+.inicio a{
+	
+	color:white;
+}
+h1{
+	
+	text-align: left;
+	color: rgb(221, 95, 95);
+}
+.texto_centrado{
+	display: flex;
+	justify-content: left;
+	
+	
+
+}
+
+
+/* estilo de las 5 imagenes */
+
+
+#parques_interfaz{
+	
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;	
+	width: 100%;
+	grid-gap: 30px;
+	
+	
+	
+	
+
+}
+#parques_interfaz >img{
+	
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;}
+
+#parques_interfaz img{
+	top: 10px;
+ width: 100% all;
+ transition: 300ms;
+ position: relative;
+
+	height: 500px;
+	border-radius: 20px;
+	box-shadow: 5px 8px 12px rgb(142, 30, 138);
+	object-fit: cover;
+}
+#parques_interfaz img:hover{
+	transform: scale(1.15);
+	box-shadow: 5px 8px 12px rgb(244, 213, 203);
+
+}
+
+/* parte de sceach */
+.buscador {
+	position: absolute;
+	top: 10px;
+	left: 75%;
+	transform: translate(-60%,-10%);
+	padding: 10px;
+}
+input {
+	outline: none;
+	box-sizing: border-box;
+	width: 0px;
+	padding: 0 10px;
+	color: #000;
+	border-radius: 20px;
+	font-size: 15px;
+	transition: all .7s ease;
+}
+
+.btn {
+	right: 0px;
+	top: 0px;
+	width: 80px;
+	height: 150px;
+}
+.container:hover input {
+	width: 250px;
+}
+/*parte de rank */
+.menu-secundario{
+	position: absolute;
+	top: 100px;
+	right: 10px;
+
+}
+.menu-secundario{
+	width: 20%;
+	margin-top: 120px; 
+background: #654ea3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+border-radius: 20px;
+} 
+
+.menu-secundario a {
+	display: block;
+	text-align: center;
+	color: rgb(255, 255, 255); 
+	margin-bottom: 20px;	 	
+}
+p{
+	color: rgb(240, 240, 240);
+	transform: translate(5%,-20%);
+	background-color: rgba(68, 68, 68, 0.447);
+	position: relative;
+	width: 200px;
+	height: 20px;
+	border-radius: 5px;
+	font: oblique bold 100% cursive;
+}
+.cont{
+	height: 570px;
+	width: 220px;
+	background: rgb(201,212,21);
+background: radial-gradient(circle, rgba(201,212,21,1) 0%, rgba(255, 193, 188, 0.972) 38%, rgba(251, 125, 192, 0.953) 100%);
+	margin-top: 60px; 
+	border-radius: 20px;
+	
+	
+}
+.buton{
+	right: 0px;
+	top: 0px;
+	width: 80px;
+	height: 50px;
+}
+

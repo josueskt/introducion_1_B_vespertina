@@ -1,0 +1,138 @@
+body{
+    background-color: #555;
+}
+header{
+    background-image: url(../img/parque_back_g.png) ;
+    height: 75px;
+  }
+  .inicio{
+    display: flex;
+   position: relative;
+    height: 60px;
+    width: 60px;
+    left: 30px;
+    top: 20px;
+  
+  
+  }
+  #inicio img{
+    transition: 300ms;
+  }
+  #inicio img:hover{
+    transform: scale(1.15);
+    transform: rotate(-90deg);
+  }
+/*borde y padin del elemento */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* remover margen de la lista */
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* estilo de los elementos */
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+  
+    /* macer la lista seleccionable*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* diferentes colores a la lista y el agregado */
+  ul li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  
+  /* color oscuro con el background color */
+  ul li:hover {
+    background: rgb(163, 24, 24);
+  }
+  
+  /* al hacer click */
+  ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+  
+  /* agregar el check a la eleccion */
+  ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+  
+  /* estilo a la clase boton */
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  /* estilo al header */
+  .header {
+    background-color: #c237b6af;
+    padding: -10px 40px;
+    color: rgba(25, 193, 199, 0.932);
+    text-align: center;
+  }
+  
+  /* cerrar el header */
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* estilo al input */
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  
+  /* estilo al boton agregar */
+  .addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  .addBtn:hover {
+    background-color: #bbb;
+  }

@@ -1,0 +1,119 @@
+<!-- Define que el documento esta bajo el estandar de HTML 5 -->
+<!DOCTYPE html>
+
+<!-- Representa la raíz de un documento HTML o XHTML. Todos los demás elementos deben ser descendientes de este elemento. -->
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Formulario de Acceso</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="author" content="Videojuegos & Desarrollo" />
+    <meta
+      name="description"
+      content="Muestra de un formulario de acceso en HTML y CSS"
+    />
+    <meta name="keywords" content="Formulario Acceso, Formulario de LogIn" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Overpass&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link hacia el archivo de estilos css -->
+    <link rel="stylesheet" href="static/img/css/login.css" />
+
+    <style type="text/css"></style>
+
+    <script type="text/javascript"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="inicio" id="inicio">
+        <a href="../web/login.html">
+          <img src="../../../img/back.png" width="60px" />
+        </a>
+      </div>
+      <div class="row">
+        <div class="col col-md-9"></div>
+      </div>
+    </header>
+    <nav></nav>
+    <div id="contenedor">
+      <div id="central">
+        <div id="login">
+          <div class="titulo">
+            <h3>Registrate</h3>
+          </div>
+          <div>
+            <label>Nombre</label>
+            <input type="text" name="name" id="name" />
+
+            <label>Apellido</label>
+            <input type="text" name="apellido" id="apellido" />
+
+            <label>Contraseña</label>
+            <input type="password" name="contraseña" id="contraseña" />
+
+            <label>Cedula</label>
+            <input type="text" name="cedula" id="cedula" />
+
+            <label>Correo</label>
+            <input type="email" name="correo" id="correo" />
+
+            <label>Direccion</label>
+            <input type="text" name="direccion" id="direccion" />
+
+            <label>Telefono</label>
+            <input type="text" name="telefono" id="telefono" />
+
+            <label>Fecha de nacimiento</label>
+            <input type="date" name="nacimiento" id="nacimiento" />
+
+            <label>Sexo</label>
+            <p>
+              <input type="radio" name="sexo" id="" value="femenino" />Femenino
+            </p>
+            <p>
+              <input
+                type="radio"
+                name="sexo"
+                id=""
+                value="masculino"
+              />Masculino
+            </p>
+
+            <button id="btn_guardar" onclick="guardar()" >Crear Cuenta</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <table class="table table-striped table-inverse table-responsive">
+      <thead class="thead-inverse">
+          <tr>
+              <th> nombre </th>
+              <th> apellido </th>
+              <th> cedula </th>
+              <th> password </th>
+              <th> correo </th>
+              <th> direccion </th>
+              <th> telefono </th>
+              <th> nacimieto </th>
+              <th> sexo </th>
+  
+          </tr>
+          </thead>
+          <tbody id="tablita">
+  
+          </tbody>
+  </table>
+    <script src="../app/stratic/css/img/js/registro.js"></script>
+  </body>
+</html>

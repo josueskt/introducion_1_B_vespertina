@@ -1,0 +1,251 @@
+/*all*/
+*{
+	padding: 0;
+	margin: 0;
+}
+/* badground principal*/
+
+header{
+  background-image: url(../img/parque_back_g.png) ;
+  height: 75px;
+}
+.inicio{
+  display: flex;
+ position: relative;
+  height: 60px;
+  width: 60px;
+  left: 30px;
+  top: 5px;
+
+
+}
+#inicio img{
+  transition: 300ms;
+}
+#inicio img:hover{
+  transform: scale(1.15);
+  transform: rotate(-90deg);
+}
+h1{
+  font: oblique bold 275% cursive;
+	color: rgb(32, 32, 32);
+	padding: 10px;
+    position: absolute;
+    left: 60%;
+}
+.articulo{
+    margin-top: -50px;
+    width: 600px;
+    height: 380px;
+    padding: 5px;
+    border-radius: 50px;
+    
+}
+.articulo p{
+    font-size: 2rem;
+    padding: 100px;
+    position: absolute;
+    left: 40%;
+    font: oblique bold 200% cursive;
+}
+iframe{
+ background-color: aqua;
+ height: 600px;
+ width: 600px;
+ border: 80px; 
+ border-radius: 10px;
+ border-color: aqua;
+ float:right;
+ top: 100px;
+ left: 700px;
+ position: relative;
+}
+body{
+    background-color: rgb(255, 234, 228);
+    font-family: sans-serif;
+  }
+
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+
+  ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+  }
+
+  ul.slider li {
+      position: absolute;
+      left: 60px;
+      top: -300px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+  }
+
+  ul.slider li img{
+    box-shadow: 3px 5px 12px rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 60%;
+    height: 600px;
+    object-fit: cover;
+    margin: -50px 10px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+  ul.slider li:first-child {
+      opacity: 1; 
+  }
+
+  ul.slider li:target {
+      opacity: 1; 
+  }
+
+  .menu{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: -10px 110px;
+  }
+
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+
+  .menu li a{
+    background-color: rgb(232, 178, 255);
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    width: 60px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+.articulo2{
+  width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+.articulo2 p{
+  width: 500px;
+  font-size: 2rem;
+  padding: 100px;
+  position: absolute;
+  left: 38%;
+  margin: 780px -600px;
+  color: aliceblue;
+}
+/* imagen de red socila */
+.redSocial{
+  font-size: 2rem;
+  padding: 10px;
+  position: absolute;
+  left: 150%;
+  margin: -50px -790px;
+}
+/*comentarios*/
+
+
+
+
+
+
+/*pie de pagina */
+  footer{
+    margin-top: 380px;
+    width: 100%;
+    height: 150%;
+    background-color: rgb(30, 29, 29);
+}  
+.lmo a{
+	background-color: rgba(236, 189, 255, 0.591);
+  padding-top: 50px;
+	height: 20%;
+	padding: 10px;
+  text-align: center;
+	border-radius: 10px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 40px;
+	width: 400px;
+	
+	
+	}
+
+  
+  .overlay{
+    background-color: hsla(274, 100%, 93%, 0.444);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+  justify-content: center;  
+  visibility: hidden;
+
+}
+.overlay.active{
+    visibility: visible;
+}
+.popup{
+   background-image: url(https://i.pinimg.com/originals/2c/45/9b/2c459bf7ccf6227ae7b9ae41bd87e9ab.jpg);
+    padding: 20px;
+    color: rgb(86, 86, 86);
+    text-align: left;
+    width: 600px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*ponerle la fuente que se me olvido cual es xd */
+}
+.btn-cerrar-popup{
+    font-size: 50px; 
+    line-height: 16px;
+   
+    
+    text-align: center;
+    color: red;
+   
+    
+}
+.popup .btn-cerrar-popup{
+  display: block;
+  text-align: right;
+}
+.popup .btn-cerrar-popup:hover{
+    color: rebeccapurple;
+}
+
+.reservar .btn-cerrar-popup{
+  position:relative;
+  background-color: rgb(255, 201, 201);
+  text-align: center;
+  left: 1px;
+  width: 20%;
+  top: -100px  ;
+}
+.reservar .btn-cerrar-popup:hover{
+  color: rebeccapurple;
+  background-color: rgb(237, 100, 100);
+
+}
+.cuadrito{
+  
+
+  text-align: center;
+ color: rgb(38, 42, 13);
+ background-color: rgb(107, 107, 255);
+
+border-radius: 15px;
+ 
+  
+}
+  

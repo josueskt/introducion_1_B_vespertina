@@ -1,0 +1,16 @@
+h1{
+    color:red
+}
+
+footer{
+    background:gray;
+}
+.formulario{
+    background-color: rgb(129, 23, 236);
+    border: solid 2px blue;
+    border-radius:20px ;
+
+}
+header{
+    background: gray;
+}
