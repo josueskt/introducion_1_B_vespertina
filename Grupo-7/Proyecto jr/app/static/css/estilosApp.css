@@ -1,0 +1,197 @@
+.formulario2 {
+    font-family: 'Times New Roman', Times, serif;
+    border: solid 10px rgb(35, 36, 74);
+    border-radius: 30;
+    background-color: rgb(11, 139, 168);
+    padding: 20px;
+    margin: 0px 100px 10px 100px;
+    box-shadow: 0 0 5px #bdf1f5, 0 0 25px #9cc8f2, 0 0 50px #99e3e7, 0 0 200px #36dfd7;
+    background: linear-gradient(250deg, rgb(155, 233, 219) 0%, rgb(90, 213, 199) 35%, rgb(2, 65, 53) 100%);
+    display: block;
+}
+
+body {
+    box-shadow: 0 0 5px #078a93, 0 0 25px #184a7a, 0 0 50px #3a49d0, 0 0 200px #1a1687;
+}
+
+.imgregistro {
+    box-shadow: 0 0 5px #26dae7, 0 0 25px #4cb5b0, 0 0 50px #078259, 0 0 200px #28c6b3;
+    border-radius: 50%;
+}
+
+.a {
+    background-color: rgb(49, 69, 112);
+    background: linear-gradient(250deg, rgb(134, 144, 238) 0%, rgb(115, 227, 242) 35%, rgb(85, 239, 208) 100%);
+    width: 100%;
+    border-radius: 15%;
+    line-height: 10px;
+    padding: 10px 0px 1px 0px;
+
+}
+
+.btn btn-primary {
+    border: #30ce9c;
+    box-shadow: 0 0 5px #bdf1f5, 0 0 25px #9cc8f2, 0 0 50px #99e3e7, 0 0 200px #36dfd7;
+}
+
+.titulo {
+    padding-right: 340px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul{
+    list-style: none;
+}
+ul label{
+    width: 170px;
+    height: 30px;
+    display: inline-block;
+    
+    
+    
+}
+.estadiarecta{
+    display: list-item;
+}
+#reservacion{
+width: fit-content;
+  background-color: #85db88;
+  color: rgb(27, 21, 21);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+ 
+	
+
+}
+body{
+    background: linear-gradient(250deg, rgb(146, 238, 134) 0%, rgb(187, 242, 115) 35%, rgb(10, 131, 16) 100%)
+}
+#respuesta{
+    padding-left: 200px;
+    
+}
+
+
+/*selector*/
+.hero{
+    width: 80%;
+    height: 80%;
+    background-image: linear-gradient(#3eb90e, #02734d);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selector{
+width: 330px;
+}
+#selecField{
+    width: 100%;
+    padding: 15px 20px ;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    background: rgba(225, 225, 225, 0.7);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#selecField img{
+     width: 19px;
+     transition: transform 1.2s;
+}
+
+#list{
+    width: 100%;
+    background: rgba(225,225,225,0.7);
+    border-radius: 6px;
+    overflow: hidden;
+}
+.opntion{
+    width: 100%;
+    padding: 15px 0px 15px 150px;
+    list-style: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+}
+.opntion img{
+    width: 80px;
+    position: absolute;
+    top: 12px;
+    left: 25px;
+}
+.opntion:hover{
+     background:rgba(142, 192, 24, 0.7);
+}
+.hide{
+    visibility: hidden;
+}
+.rotate{
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
+/**/
+
+#paquetesturisticos{
+    width: fit-content;
+  background-color: #4d814f;
+  color: rgb(27, 21, 21);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.calificacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.estrellas{
+    font-size: 2rem;
+    color: rgb(139, 73, 49);
+    background-color: unset;
+    border: none;
+}

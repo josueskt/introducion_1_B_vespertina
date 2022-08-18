@@ -1,0 +1,178 @@
+/**/
+
+*{
+    list-style: none;
+}
+.fondo{
+    background-color: rgba(238, 235, 67, 0.733);
+}
+/*Arriba*/
+.barraarriba{
+    border:solid 4px ;
+    border-radius: 120px;
+    border-color: rgb(136, 95, 66);
+    margin: 10px 100px 10px 100px;
+    
+    background-color: rgb(236, 187, 97);
+    box-shadow: 0 0 5px #ceb993, 0 0 25px #13130e, 0 0 50px #e4b359, 0 0 200px #b6a143;
+
+}
+.elementosbarraarriba{
+    margin-left: 600px;
+   padding: 5px 0px 8px 0px
+}
+.a{
+    
+ border: solid 5px;
+ border-color: rgb(136, 95, 66);
+width: 150px;
+background: linear-gradient(250deg, rgb(243, 225, 166) 0%, rgb(224, 191, 121) 35%, rgb(97, 192, 184) 100%);
+font-family: cursive;
+margin-left: 600px;
+box-shadow: 0 0 5px #ceb993, 0 0 25px #030302, 0 0 50px #e4b359, 0 0 200px #b6a143;
+
+}
+.imagen_ecuador_movimiento{
+    float:right;
+    margin-right: 600px;
+}
+.imagen_ecuador_movimiento {
+float: right;
+animation: movimiento 3.5s linear infinite;
+}
+.imagen_ecuador_movimiento img{
+  width: 300px;
+  height: 220px;
+  display: block;
+    }
+    @keyframes movimiento{
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateX(10%);
+        }
+        100%{
+            transform: translateY(0)
+        }
+    }
+
+  
+.titulo_quienes_somos{
+    margin-left: 40%;
+}
+.info_quienes_somos{
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: cc;
+    width:1400px ;
+    margin-left: 160px;
+    margin-top: 10px;
+    box-shadow: 0 0 5px #ceb993, 0 0 25px #030302, 0 0 50px #e4b359, 0 0 200px #b6a143;
+    background: linear-gradient(250deg, rgb(170, 158, 119) 0%, rgb(197, 151, 51) 35%, rgb(41, 187, 175) 100%);
+}
+.titulo_ecuador{
+    margin-left: 47%;  
+}
+.titulo_ecuador_cuadro{
+
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: cc;
+    width:1400px ;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+.slider{
+    overflow:hidden
+}
+.slider ul{
+    display: flex;
+    animation: cambio 8s infinite alternate linear;
+    width: 100%;
+}
+@keyframes cambio{
+
+0%{margin-left: 0;}
+20%{margin-left: 0;}
+
+25%{margin-left: -100%;}
+45%{margin-left: -100%;}
+
+50%{margin-left: -200%;}
+70%{margin-left: -200%;}
+
+75%{margin-left: -300%;}
+100%{margin-left: -300%;}
+}
+
+
+
+
+/*login*/
+.formulario{
+
+border: solid;
+border-color: rgb(136, 95, 66) ;
+width: 350px;
+background: linear-gradient(250deg, rgb(243, 225, 166) 0%, rgb(224, 191, 121) 35%, rgb(224, 196, 101) 100%);
+box-shadow: 0 0 5px #ceb993, 0 0 25px #030302, 0 0 50px #e4b359, 0 0 200px #b6a143;
+}
+.usu{
+    display: list-item;
+    background-color: #d1ceca;
+}
+
+
+/*Amazonia*/
+.color_amazonia{
+    background-color: #36b132;
+}    
+.informacion_turismo_amazonas{
+    background-color:  #4db14a;
+    border: solid 4px;
+    border-radius: 3%;
+    border-color: #a77e34; 
+    margin-top: 10px;
+
+}
+
+
+
+
+
+/*Sierra*/
+.color_sierra{
+background-color: #977638;
+}    
+.informacion_turismo_sierra{
+    background-color:  #8a5a1c;
+    border: solid 4px;
+    border-radius: 3%;
+    border-color: #a77e34; 
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+/*Costa*/
+.color_costa{
+    background-color: #5493e6;
+    }    
+    .informacion_turismo_costa{
+        background-color:  #1e73e2;
+        border: solid 4px;
+        border-radius: 3%;
+        border-color: #d4ae65; 
+        margin-top: 10px;
+    
+    }
+
+
+
+    
