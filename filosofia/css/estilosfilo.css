@@ -1,0 +1,257 @@
+body{
+    background: linear-gradient(143deg, rgba(249,164,118,1) 18%, rgba(255,183,177,1) 35%, rgba(245,108,238,1) 81%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: black;    
+
+}
+
+#menu ul  {
+    list-style: none;
+    margin:0;
+    
+}
+
+#menu ul li{
+    float:right;
+    
+}
+
+#menu a{
+    color: blanchedalmond;
+    text-decoration: none;
+    display: block;
+    padding: 12px 26px;
+    font-family:'Courier New', Courier, monospace;
+
+
+}
+
+#menu a:hover{
+    background: linear-gradient(45deg, rgba(243, 0, 211), rgb(103, 21, 255), rgb(27, 106, 224));
+    border-radius: 50px;
+}
+
+.titu2{
+    text-align: center;
+    color: yellow;
+}
+/* titulo */
+h1{
+    display: inline-block;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace
+}
+
+/* lineas */
+
+h1::after,h1::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: currentColor;
+    top: 0.6em;
+}
+
+h1::before{
+    left: -140px;
+}
+
+h1::after{
+    right: -140px;
+}
+
+.separador{
+    height: 5px;
+}
+.facebook{
+    margin-left: 30px;
+    
+}
+
+img{
+    transition: all 0.5s linear;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
+
+#filotext{
+    width: 50%;
+    padding: 30px;
+    background-color: #be8aec;  
+    box-sizing: border-box;
+    border-radius: 20px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.imgfilo{
+    float: left;
+    margin-left: 30px;
+}
+#filotext2{
+    width: 50%;
+    padding: 30px;
+    background-color: #be8aec; 
+    box-sizing: border-box;
+    border-radius: 20px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.imgfilo2{  
+    margin-top: 90px;
+    margin-left: 20px;
+}
+.imgfilo3{  
+    margin-top: 90px;
+    margin-left: 20px;
+}
+.imgfilo4{  
+
+    margin-left: 20px;
+}
+.imgfilo5{  
+    margin-top: 90px;
+    margin-left: 20px;
+}
+.imgfilo6{  
+    margin-top: 90px;
+    margin-left: 20px;
+}
+#filotext3{
+    width: 50%;
+    padding: 30px;
+    background-color: #be8aec; 
+    box-sizing: border-box;
+    border-radius: 20px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.formulario{
+    width: 50%;
+    padding: 30px;
+    background-color: #be8aec; 
+    box-sizing: border-box;
+    border-radius: 20px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.boton{
+    color: blanchedalmond;
+    text-decoration: none;
+    display: block;
+    padding: 12px 26px;
+    background-color: black;
+    border-radius: 50px;
+    height: 50px;
+    width: 95px;
+}
+.imgfilo7{  
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+
+.main{
+    height: 3250px;
+}
+/* PIE DE PAGINA */
+
+footer{
+    background: black;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*COMENTARIOS*/
+
+.ventan2{
+    background: red;
+    width: 30%;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    height: 415px;
+    border-radius: 22px;
+    top: 25%;
+
+    position: fixed;
+    display: none;
+}
+
+#cerrar{
+    position: absolute;
+    margin-left: 355px;
+}
+
+#cerrar img{
+    width: 30px;
+    height: 30px;
+}
+
+#contenedor img{
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    bottom: 20px;
+
+}
+
+
+/*CAJA DE COMENTARIOS*/
+
+#nombre{
+    border-radius: 10px;
+}
+
+.coment19 textarea{
+    width: 350px;
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+    border-radius: 10px;
+}
+
+#boton-coment{
+    background: blue;
+    color: white;
+    border-radius: 15px;
+}

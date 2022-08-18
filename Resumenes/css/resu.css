@@ -1,0 +1,212 @@
+body{
+    background: linear-gradient(143deg, rgba(249,164,118,1) 18%, rgba(255,183,177,1) 35%, rgba(245,108,238,1) 81%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+
+header{
+    background-color: black;    
+
+}
+
+#menu ul  {
+    list-style: none;
+    margin:0;
+    
+}
+
+#menu ul li{
+    float:right;
+}
+
+#menu a{
+    color: blanchedalmond;
+    text-decoration: none;
+    display: block;
+    padding: 12px 26px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#menu a:hover{
+    background: linear-gradient(45deg, rgba(243, 0, 211), rgb(103, 21, 255), rgb(27, 106, 224));
+    border-radius: 50px;
+}
+
+.titu2{
+    text-align: center;
+}
+/* titulo */
+h1{
+    display: inline-block;
+    position: relative;
+    color: black;
+    font-family:'Courier New', Courier, monospace
+}
+
+/* lineas */
+
+h1::after,h1::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: currentColor;
+    top: 0.6em;
+}
+
+h1::before{
+    left: -140px;
+}
+
+h1::after{
+    right: -140px;
+}
+
+/* redes */
+/* circulo
+.redes{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 100%;
+}
+*/
+.separador{
+    height: 5px;
+}
+.facebook{
+    margin-left: 30px;
+    
+}
+
+img{
+    transition: all 0.5s linear;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
+.form1{
+    background-color: aquamarine;
+    border-style: solid;
+    border-radius: 20px;
+    width: 370px;
+    height: 64px;
+}
+
+#content a{
+    color: blanchedalmond;
+    text-decoration: none;
+    display: block;
+    padding: 12px 26px;
+}
+
+#content a:hover.leng{
+    background: linear-gradient(45deg, rgb(219, 46, 55), rgb(231, 100, 100), rgb(234, 169, 169));
+    border-radius: 50px;
+    margin: 0px
+}
+
+#content a:hover.filo{
+    background: linear-gradient(45deg, rgba(189, 64, 239, 0.787), rgb(218, 125, 255), rgb(227, 159, 247));
+    border-radius: 50px;
+    margin: 0px  
+}
+
+#content a:hover.naturales{
+    background: linear-gradient(45deg, rgb(55, 185, 59), rgb(108, 191, 111), rgb(154, 217, 160));
+    border-radius: 50px;
+    margin: 0px  
+}
+
+#content a:hover.mate{
+    background: linear-gradient(45deg, rgb(59, 62, 229), rgb(91, 100, 239), rgb(151, 160, 231));
+    border-radius: 50px;
+    margin: 0px  
+}
+.imgref1{
+    margin: 15px;
+    float: right;
+}
+#p1 a{
+    margin: 0px;
+    color:aliceblue
+}
+
+.releg{
+    background-color:lightcoral;
+    border-style: solid;
+    border-radius: 15px;
+    width: 1180px;
+    height: 165px;
+}
+.imgref2{
+    margin: 15px;
+    float: left;
+}
+.refilo{
+    background-color:rgb(174, 133, 223);
+    border-style: solid;
+    border-radius: 15px;
+    width: 1180px;
+    height: 180px;
+    float: right;
+}
+
+.imgref3{
+    margin: 15px;
+    float: right;
+}
+
+.renatu{
+    background-color:rgb(146, 193, 139);
+    border-style: solid;
+    border-radius: 15px;
+    width: 1160px;
+    height: 180px;
+    float: left;
+}
+
+.remate{
+    background-color:rgb(87, 115, 190);
+    border-style: solid;
+    border-radius: 15px;
+    width: 1160px;
+    height: 180px;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    height: 1200px;
+}
+/* PIE DE PAGINA */
+
+footer{
+    background: black;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
