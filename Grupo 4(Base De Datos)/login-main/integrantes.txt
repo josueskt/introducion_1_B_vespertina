@@ -1,4 +1,5 @@
-Ronny Daniel Pomasqui Chicaiza
-Danna Mijal Guachilema Guzmán
-Jonathan Alexander Cañar Paz
-Jean Micky Vera Chacon 
+integrantes:
+Danna Guachilema
+Ronny pomasqui
+jean vera
+jonathan Cañar
