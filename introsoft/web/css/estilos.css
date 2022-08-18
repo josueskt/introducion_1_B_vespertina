@@ -1,0 +1,56 @@
+h1 {
+    color: rgb(0, 0, 0);
+    padding: 38px 200px 20px 305px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-label {
+    color: rgb(20, 20, 20);
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+.body{
+    background-color: rgb(201, 201, 201);
+}
+
+.container {
+    text-align: center;
+    border: solid 3px rgb(0, 0, 0);
+    border-radius: 10px;
+    background: radial-gradient(circle, rgba(166,234,255,1) 0%, rgba(87,201,237,1) 100%);
+    padding: 30px;
+    margin: 140px 0px 0px 0px;
+}
+
+.form-control {
+    height: 37px;
+}
+
+
+
+.btn-primary {
+   margin: 0px 0px 0px 5px;
+    height: 40px;
+    width: 140px;
+}
+
+.logo {
+    padding: 0px 0px 0px 7px;
+}
+
+
+
+
+
+
+
+
+header {
+    background: rgb(38, 146, 196);
+}
+
+footer {
+    line-height: 1cm;
+    background: rgb(38, 146, 196);
+}
