@@ -1,0 +1,167 @@
+body{
+    background-image: url(../../img/imagenes/mundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+
+header{
+    background-color: black;    
+
+}
+
+#menu ul  {
+    list-style: none;
+    margin:0;
+    
+}
+
+#menu ul li{
+    float:right;
+}
+
+#menu a{
+    color: blanchedalmond;
+    text-decoration: none;
+    display: block;
+    padding: 12px 26px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#menu a:hover{
+    background: linear-gradient(45deg, rgba(243, 0, 211), rgb(103, 21, 255), rgb(27, 106, 224));
+    border-radius: 50px;
+}
+
+.titu2{
+    text-align: center;
+}
+/* titulo */
+h1{
+    display: inline-block;
+    position: relative;
+    color: black;
+    font-family:'Courier New', Courier, monospace
+}
+
+/* lineas */
+
+h1::after,h1::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: currentColor;
+    top: 0.6em;
+}
+
+h1::before{
+    left: -140px;
+}
+
+h1::after{
+    right: -140px;
+}
+
+/* redes */
+/* circulo
+.redes{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 100%;
+}
+*/
+.separador{
+    height: 5px;
+}
+.facebook{
+    margin-left: 30px;
+    
+}
+
+img{
+    transition: all 0.5s linear;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
+.form1{
+    background-color: aquamarine;
+    border-style: solid;
+    border-radius: 20px;
+    width: 370px;
+    height: 64px;
+}
+
+#content a{
+    color: blanchedalmond;
+    text-decoration: none;
+    display: block;
+    padding: 12px 26px;
+}
+.contenedor{
+    border: solid 2px blue;
+    border-radius: 20px;
+    background-color: rgba(125, 125, 240, 0.913);
+    padding-top: 50px;
+    margin-top: 30px;
+    
+}
+.formulario2{
+    border: solid 2px rgb(103, 103, 215);
+    border-radius: 20px;
+    background: rgb(180, 179, 198);
+    background: linear-gradient(45deg, rgb(166, 164, 194) 0%, rgba(176, 176, 245, 0.402) 35%, rgb(166, 147, 208));
+    padding-top: 2px;
+    margin: 60px 20px 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.reg{
+    border-radius: 5ex;
+    line-height: 10px;
+    padding: 5px 0px 5px 0px;
+    text-indent: 10ex;
+    margin: 10px;
+}
+h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.boton{
+    margin-left: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    height: 1200px;
+}
+/* PIE DE PAGINA */
+
+footer{
+    background: black;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
