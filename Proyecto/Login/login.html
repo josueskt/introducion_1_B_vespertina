@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login y Registro</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+    <main>
+        <div class="contenedor__todo">
+
+            <div class="caja__trasera">
+             <div class="caja__trasera-login">
+
+                <h3>Ya creaste tu cuenta?</h3>
+                <p>Inicia sesión para que puedas mostrar tu arte</p>
+                <button id="btn__iniciar-sesión"> Iniciar sesión</button>
+             </div>
+             <div class="caja__trasera-register">
+
+                <h3>Aún no tienes tu cuenta?</h3>
+                <p>Registrate e inicia sesión</p>
+                <button id="btn__registrarse"> Registrarse</button>
+             </div>
+         </div>
+          <!--Formulario de Login y Registro-->
+         <div class="contenedor__login-registro">
+            <!--Login-->
+            <form action="" class="formulario__login">
+                <h2>Iniciar Sesión</h2>
+                <input type="text" placeholder="Correo Electronico">
+                <input type="password" placeholder="Contraseña">
+                <button>Entrar</button>
+                    
+             
+
+            </form>
+              <!--Registro-->
+            <form action="" class="formulario__registro">
+            <h2>Registrarse</h2>
+            <input type="text" placeholder="Nombre" required maxlength="30" id="nombre" name="nombre">
+            <input type="text" placeholder="Apellido" required maxlength="30" id="apellido" name="apellido"> 
+            <input type="email" placeholder="Email" required maxlength="30" id="correo" name="correo">
+            <input type="password" placeholder="Password" required maxlength="30" id="clave" name="clave">
+            
+          
+           
+            <button class="btn" onclick="agregarUsuario()" >REGISTRAR</button>
+            <script src="login.js"></script>
+
+
+
+         </div>
+    </div>
+
+
+    </main>
+    <script src="login.js"></script>
+</body>
+</html>

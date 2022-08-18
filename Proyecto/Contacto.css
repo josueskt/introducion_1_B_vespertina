@@ -1,0 +1,61 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/fondoopaco_auto_x2.jpg");
+  background-position: 50% 50%;
+  min-height: 100vh;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 80px auto 0 calc(((100% - 1140px) / 2) + 175px);
+}
+
+.u-section-1 .u-text-2 {
+  font-weight: 700;
+  font-size: 1.9rem;
+  margin: 67px calc(((100% - 1140px) / 2) + 10px) 0;
+}
+
+.u-section-1 .u-social-icons-1 {
+  height: 120px;
+  min-height: 16px;
+  width: 120px;
+  min-width: 16px;
+  margin: 34px auto 0 calc(((100% - 1140px) / 2) + 510px);
+}
+
+.u-section-1 .u-icon-1 {
+  height: 120px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-social-icons-1 {
+    margin-left: calc(((100% - 1140px) / 2) + 490px);
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-social-icons-1 {
+    margin-right: calc(((100% - 1140px) / 2) + 420px);
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-social-icons-1 {
+    margin-right: calc(((100% - 1140px) / 2) + 330px);
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-social-icons-1 {
+    margin-right: calc(((100% - 1140px) / 2) + 230px);
+  }
+}

@@ -1,0 +1,144 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/fondoopaco_auto_x2.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 886px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 228px;
+  height: 228px;
+  background-image: url("images/Hymmy.jpg");
+  background-position: 50% 50%;
+  margin: 80px auto 0 100px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: -228px 208px 0 337px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0 113px 0 337px;
+}
+
+.u-section-1 .u-text-3 {
+  margin: 90px auto 0 212px;
+}
+
+.u-section-1 .u-btn-2 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-1 .u-image-2 {
+  width: 228px;
+  height: 228px;
+  background-image: url("images/pablo.jpg");
+  background-position: 50% 50%;
+  margin: -57px 100px 0 auto;
+}
+
+.u-section-1 .u-text-4 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: -162px 337px 0 491px;
+}
+
+.u-section-1 .u-btn-3 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 113px auto 60px;
+  padding: 27px 78px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 731px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 108px;
+    margin-left: 237px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 13px;
+    margin-left: 237px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-right: 237px;
+    margin-left: 391px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 560px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 0;
+    margin-left: 125px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+    margin-left: 125px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-right: 127px;
+    margin-left: 281px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 420px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-left: 159px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-right: 37px;
+    margin-left: 191px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 264px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-left: 100px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-right: 0;
+    margin-left: 28px;
+  }
+}
