@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+  background-attachment: fixed;
+}
+body{
+  background: linear-gradient(309deg, rgba(255,213,250,1) 49%, rgba(215,251,252,1) 52%);
+}
+
+.separador-formu{
+  height: 20px;
+}
+
+header h1{
+  text-align: center;
+  padding: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 60px;
+  color:red
+}
+
+header h1{
+  background: white;
+  width: 70%;
+  height: 80px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  border-style:dashed;
+
+}
+
+.formulario2{
+  margin: auto;
+  border: solid 5px rgb(226, 140, 28);  
+  border-radius: 20px;
+  background: radial-gradient(circle, rgba(33,65,226,1) 0%, rgba(114,205,246,1) 58%, rgba(241,139,197,1) 100%);
+  padding: 10px;
+  margin:auto;
+  line-height: 10px;
+  margin-top: 10px;
+  width: 50%;
+  height: 880px;
+}
+
+.reg{
+  text-align: center;
+}
+
+#ree{
+  font-size: 30px;
+
+}

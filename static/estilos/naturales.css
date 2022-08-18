@@ -1,0 +1,139 @@
+body{
+    background-image: url(../../img/imagenes/mundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+
+header{
+    background-color: black;    
+
+}
+
+#menu ul  {
+    list-style: none;
+    margin:0;
+    
+}
+
+#menu ul li{
+    float:right;
+}
+
+#menu a{
+    color: blanchedalmond;
+    text-decoration: none;
+    display: block;
+    padding: 12px 26px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#menu a:hover{
+    background: linear-gradient(45deg, rgba(243, 0, 211), rgb(103, 21, 255), rgb(27, 106, 224));
+    border-radius: 50px;
+}
+
+.titu2{
+    text-align: center;
+}
+/* titulo */
+h1{
+    display: inline-block;
+    position: relative;
+    color: rgb(236, 221, 221);
+    font-family:'Courier New', Courier, monospace
+}
+
+/* lineas */
+
+h1::after,h1::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: currentColor;
+    top: 0.6em;
+}
+
+h1::before{
+    left: -140px;
+}
+
+h1::after{
+    right: -140px;
+}
+
+/* redes */
+/* circulo
+.redes{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 100%;
+}
+*/
+.separador{
+    height: 5px;
+}
+.facebook{
+    margin-left: 30px;
+    
+}
+
+img{
+    transition: all 0.5s linear;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    height: 1200px;
+}
+/* PIE DE PAGINA */
+
+footer{
+    background: black;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}

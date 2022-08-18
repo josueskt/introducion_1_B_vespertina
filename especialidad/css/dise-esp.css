@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+body{
+    background: linear-gradient(309deg, rgba(255,213,250,1) 49%, rgba(215,251,252,1) 52%);
+}
+
+.separador-formu{
+    height: 20px;
+}
+
+header h1{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    color:red
+}
+
+header h1{
+    
+    background: white;
+    width: 70%;
+    height: 80px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-style:dashed;
+
+}
+
+.formulario2{
+    float:right;
+    border: solid 5px rgb(226, 140, 28);  
+    border-radius: 20px;
+    background: radial-gradient(circle, rgba(33,65,226,1) 0%, rgba(114,205,246,1) 58%, rgba(241,139,197,1) 100%);
+    
+    line-height: 10px;
+    margin-top: 10px;
+    width: 60%;
+    height: 750px;
+  }
+
+.formulario2 h1{
+    text-align: center;
+}
+
+.lado-derecho{
+    float: right;
+    width: 46%;
+    height: 500px;
+    background: rgb(240, 231, 116);
+    margin-right: 15px ;
+}
+
+.lado-iz{
+    width: 46%;
+    height: 500px;
+    background: rgb(151, 102, 207);
+    margin-left: 15px;
+
+}
+
+
+.lado-iz {
+    text-align: center;
+}
+
+input{
+    height: 40px;
+}
+
+h5{
+    font-style: 50px;
+}
+
+.selec{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#opcion-1{
+    font-size: 20px;
+    width:240px;
+    height: 40px;
+    margin-left: 30px;
+}
+#opcion-2{
+    font-size: 20px;
+    width:240px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+
+.selec p{
+    color: rgb(39, 33, 33);   
+    font-size: 25px;
+    text-align: center;
+}
+
+.botones-abajo{
+    margin-top: 10px;
+    width: 740px;
+    height: 100px;
+  /*  background: rgb(151, 102, 207); */
+    margin-left: 15px;
+
+}
+/*
+.lado-izquierdo{
+    width: 100%;
+    height: 650px;
+    background-color: aqua;
+}
+*/
+
+.butt button{
+    width: 20%;
+    height: 50px;
+    margin-left: 140px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+
+}
+
+
+/*IMAGENSE DE LADO  */
+.row-1{
+    width: 30%;
+    height: 760px;
+    background: linear-gradient(143deg, rgba(249,164,118,1) 18%, rgba(255,183,177,1) 35%, rgba(245,108,238,1) 81%);
+
+    position: absolute;
+    border-radius: 30px;
+}
+
+.fotos-1 img{
+    margin-top: 23px;
+    margin-left: 15px;
+    width: 45%;
+    height: 100px;
+}

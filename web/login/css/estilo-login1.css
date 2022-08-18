@@ -1,0 +1,66 @@
+*{
+  padding: 0;
+  background-attachment: fixed;
+}
+
+body{
+  background: linear-gradient(302deg, rgba(255,213,250,1) 49%, rgba(215,251,252,1) 52%);
+  background-repeat: no-repeat;
+  height: 520px;
+  
+}
+
+#form2 button:hover{
+  background: linear-gradient(45deg, rgba(243, 0, 211), rgb(103, 21, 255), rgb(27, 106, 224));
+  border-radius: 50px;
+  cursor:pointer;
+}
+
+#cuadrado{
+  margin-top: 35px;
+  width: 400px;
+  height: 330px;
+  background: linear-gradient(302deg, rgba(121,250,254,1) 49%, rgba(255,161,245,1) 52%);
+  margin: auto;
+  border-radius: 30px;        
+}
+
+.contenedor2{
+  margin-top:160px;
+  text-align: center;
+}
+
+.ft-login img{
+  width: 70px;
+  height: 70px;
+  margin-top: 8px;
+  float: left;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+#separador{
+  height: 75px;
+}
+
+h1{
+  margin-top: 25px;
+  float: right;
+  margin-right: 35px;    
+
+}
+
+#form2 input{
+  width: 250px;
+  height: 30px;   
+  border: none;
+  border-radius: 5px;
+}
+#form2 button{
+  width: 130px;
+  height: 35px;
+  border-style: none;
+  border-radius: 20px;
+  background: linear-gradient(146deg, rgba(176,120,244,1) 43%, rgba(255,213,250,1) 83%);
+}
+
