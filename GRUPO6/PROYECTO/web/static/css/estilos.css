@@ -1,0 +1,1274 @@
+h1 {
+    color: rgb(0, 0, 0);
+    padding: 38px 200px 20px 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h2 {
+    padding: 28px 185px 25px 0px;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.barras {
+ padding: 0px 0px 0px 1045px;
+ font-size: 16px;
+}
+.barra {
+    text-decoration: none;
+    color: rgb(245,240,240);
+}
+.opcionRegresar {
+font-weight: 650;
+font-size: 20px;
+text-decoration: none;
+padding: 0px 0px 0px 1367px;
+color: rgb(255, 254, 254);
+}
+
+
+
+
+
+
+.col {
+    line-height: 27px;
+    width: 200px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.log {
+    padding: 4px 0px 4px 0px;
+    margin: 4px 100px 4px 100px;
+}
+
+.l {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    border: 2px solid rgb(0, 81, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(17, 17, 17);
+    background-color: rgb(201, 201, 201);
+
+}
+
+.boton1 {
+    padding: 4px 7px 4px 7px;
+    margin: 15px 100px 4px 4px;
+    position: relative;
+    left: 148px;
+}
+
+.nr {
+    margin: 20px 50px 0px 50px;
+}
+
+.formulario1 {
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 20px;
+    background: radial-gradient(circle, rgba(59, 149, 255, 1) 0%, rgba(44, 236, 255, 1) 100%);
+    padding: 50px;
+    margin: 30px 100px 30px 100px;
+
+}
+
+.icono {
+    padding: 7px 0px 0px 45px;
+}
+
+
+
+
+.text {
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 200px 100px 270px 450px;
+    width: 700px;
+
+}
+
+.giflogin {
+    margin: 0px 0px 145px 0px;
+    width: 520px;
+    height: 435px;
+    padding-top: 40px;
+}
+
+
+body {
+    background-size: 300em;
+    background-image: url(/web/static/img/fondo2.jpg);
+}
+
+.body2 {
+    background-image: url(/web/static/img/fondo3.jpg);
+    background-size: 110em;
+    
+}
+
+.logo {
+    margin: 6px 0px 0px 10px;
+}
+
+
+.imag {
+
+    position: absolute;
+    top: 250px;
+    right: 300px;
+
+}
+
+
+.imageninicio1 {
+    margin: -900px 0px 0px 120px;
+}
+
+
+
+.imageninicio2 {
+    margin: -947px 0px 0px 1230px;
+}
+
+
+
+
+.frase {
+    text-align: center;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(255, 152, 25, 0.8883928571428571) 18%, rgba(255, 148, 16, 1) 43%, rgba(255, 128, 0, 1) 80%, rgba(223, 97, 0, 1) 100%);
+    padding: 25px;
+    margin: -150px 0px 50px 397px;
+    width: 32em;
+}
+
+.vision {
+    text-align: center;
+    font-weight: 500;
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 10px;
+    background: rgb(191, 146, 112);
+    padding: 30px;
+    margin: 100px 0px 143px 700px;
+    width: 30em;
+}
+
+.visionimagen {
+    margin: -660px 0px 0px 70px;
+}
+
+
+.nombreP1 {
+    color: rgb(0, 152, 100);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 40px;
+    padding-left: 50px;
+    font-weight: 600;
+}
+
+.bio1 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 400px;
+    width: 1500px;
+    margin: -235px 0px 50px -50px;
+}
+
+.og1 {
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+.obra1 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 125px;
+    color: rgb(255, 165, 0);
+    text-decoration: underline;
+
+}
+
+.pintura1 {
+    padding-top: 35px;
+    padding-left: 137px;
+}
+
+.ca {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 117px;
+    margin: -215px 100px 0px 40px;
+}
+
+.ca1 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 400px;
+    width: 1000px;
+    margin: -5px 0px 50px -50px;
+}
+
+.nombreP2 {
+    color: rgb(0, 152, 100);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 5px;
+    padding-left: 55px;
+    font-weight: 600;
+}
+
+.vm2 {
+    padding-top: 10px;
+    padding-left: 1150px;
+}
+
+.bio2 {
+    text-align: right;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 190px;
+    width: 1150px;
+    margin: -250px 0px 50px -50px;
+}
+
+.obra2 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 1155px;
+    color: rgb(255, 165, 0);
+    text-decoration: underline;
+}
+
+.ir {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 1155px;
+    margin: -10px 100px 0px 50px;
+}
+
+.pintura2 {
+    padding-top: 10px;
+    padding-left: 1160px;
+}
+
+.ir2 {
+    text-align: right;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 500px;
+    width: 1150px;
+    margin: -150px 0px 50px -50px;
+}
+
+.nombreP3 {
+    color: rgb(0, 152, 100);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 82px;
+    padding-left: 50px;
+    font-weight: 600;
+}
+
+.eb3 {
+    padding-top: 15px;
+    padding-left: 100px;
+}
+
+.bio3 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 400px;
+    width: 1400px;
+    margin: -200px 0px 50px -30px;
+}
+
+.obra3 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 165px;
+    margin: -10px 0px 50px -50px;
+    color: rgb(255, 165, 0);
+    text-decoration: underline;
+}
+
+.ec {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 120px;
+    margin: -40px 100px 0px 40px;
+}
+
+.pintura3 {
+    padding-top: 10px;
+    padding-left: 127px;
+}
+
+.ec3 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 400px;
+    width: 1000px;
+    margin: -207px 0px 50px -50px;
+}
+
+.nombreP4 {
+    color: rgb(0, 152, 100);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 82px;
+    padding-left: 50px;
+    font-weight: 600;
+}
+
+.ce4 {
+    padding-top: 30px;
+    padding-left: 1230px;
+}
+
+.bio4 {
+    text-align: right;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 300px;
+    width: 1290px;
+    margin: -230px 0px 50px -110px;
+}
+
+.obra4 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 1202px;
+    margin: -10px 0px 50px -2px;
+    color: rgb(255, 165, 0);
+    text-decoration: underline;
+}
+
+.lf {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 1179px;
+    margin: -50px 100px 0px 40px;
+}
+
+.pintura4 {
+    padding-top: 10px;
+    padding-left: 1170px;
+}
+
+.lf4 {
+    text-align: right;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 400px;
+    width: 1000px;
+    margin: -150px 0px 50px 107px;
+}
+
+.nombreP5 {
+    color: rgb(0, 152, 100);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-weight: 600;
+}
+
+.ac {
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+.bio5 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 400px;
+    width: 1500px;
+    margin: -235px 0px 50px -50px;
+}
+
+.obra5 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 110px;
+    margin: 70px 0px 7px 12px;
+    color: rgb(255, 165, 0);
+    text-decoration: underline;
+}
+
+.edc {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 42px;
+    margin: -10px 100px 0px 53px;
+
+}
+
+.pintura5 {
+    padding-top: 10px;
+    padding-left: 97px;
+}
+
+.edc5 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 400px;
+    width: 1000px;
+    margin: -197px 0px 50px -10px;
+}
+
+.nombreP6 {
+    color: rgb(0, 152, 100);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-weight: 600;
+}
+
+.bm {
+    padding-top: 65px;
+    padding-left: 1175px;
+}
+
+.bio6 {
+    text-align: right;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 300px;
+    width: 1290px;
+    margin: -245px 0px 50px -170px;
+}
+
+.obra6 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 1202px;
+    margin: -60px 0px 50px -20px;
+    color: rgb(255, 165, 0);
+    text-decoration: underline;
+}
+
+.hcr {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 1179px;
+    margin: -50px 100px 0px -25px;
+}
+
+.pintura6 {
+    padding-top: 10px;
+    padding-left: 1178px;
+}
+
+.hcr6 {
+    text-align: right;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 400px;
+    width: 1000px;
+    margin: -150px 0px 50px 120px;
+}
+
+.nombreP7 {
+    color: rgb(0, 152, 100);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-weight: 600;
+}
+
+.ag {
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+.bio7 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 400px;
+    width: 1500px;
+    margin: -190px 0px 50px -40px;
+}
+
+.obra7 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 130px;
+    color: rgb(255, 165, 0);
+    text-decoration: underline;
+}
+
+.fee {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 60px;
+    padding-left: 155px;
+    margin: -50px 100px 0px -50px;
+}
+
+.pintura7 {
+    padding-top: 10px;
+    padding-left: 132px;
+}
+
+.fee7 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 400px;
+    width: 1200px;
+    margin: -184px 0px 50px -35px;
+}
+
+.nombreP8 {
+    color: rgb(0, 152, 100);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-weight: 600;
+}
+
+.ov {
+    padding-top: -5px;
+    padding-left: 1200px;
+}
+
+.bio8 {
+    text-align: right;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 300px;
+    width: 1290px;
+    margin: -197px 0px 50px -147px;
+}
+
+.obra8 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 1202px;
+    margin: 90px 0px 50px -10px;
+    color: rgb(255, 165, 0);
+    text-decoration: underline;
+}
+
+.bdt {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 1179px;
+    margin: -50px 100px 0px 15px;
+}
+
+.pintura8 {
+    padding-top: 10px;
+    padding-left: 1170px;
+}
+
+.bdt8 {
+    text-align: right;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 400px;
+    width: 1000px;
+    margin: -170px 0px 50px 120px;
+}
+
+.nombreP9 {
+    color: rgb(0, 152, 100);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-weight: 600;
+}
+
+.ek {
+    padding-top: 45px;
+    padding-left: 175px;
+}
+
+.bio9 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 400px;
+    width: 1400px;
+    margin: -240px 0px 0px 20px;
+}
+
+.obra9 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 165px;
+    margin: -20px 0px 5px 7px;
+    color: rgb(255, 165, 0);
+    text-decoration: underline;
+}
+
+.er {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 60px;
+    padding-left: 155px;
+    margin: -50px 100px 0px 37px;
+}
+
+.pintura9 {
+    padding-top: 10px;
+    padding-left: 172px;
+}
+
+.er9 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 400px;
+    width: 1200px;
+    margin: -170px 0px 50px -10px;
+}
+
+.nombreP10 {
+    color: rgb(0, 152, 100);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-weight: 600;
+}
+
+.mp {
+    padding-top: -100px;
+    padding-left: 1250px;
+}
+
+.bio10 {
+    text-align: right;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 300px;
+    width: 1290px;
+    margin: -237px 0px 50px -100px;
+}
+
+.obra10 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 1202px;
+    margin: 70px 0px 0px 40px;
+    color: rgb(255, 165, 0);
+    text-decoration: underline;
+}
+
+.lp {
+    color: #000000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 1179px;
+    margin: -2px 100px 0px 25px;
+}
+
+.pintura10 {
+    padding-top: 10px;
+    padding-left: 1185px;
+}
+
+.lp10 {
+    text-align: right;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 400px;
+    width: 1200px;
+    margin: -200px 0px 50px -55px;
+}
+
+
+
+.nombrePC1 {
+    color: rgb(0, 152, 100);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 40px;
+    padding-left: 50px;
+    font-weight: 600;
+}
+
+.mf1 {
+    padding-top: 15px;
+    padding-left: 150px;
+}
+
+.bioC1 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 400px;
+    width: 1500px;
+    margin: -178px 0px 50px -60px;
+}
+
+.obraC1 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 120px;
+    color: rgb(255, 165, 0);
+    text-decoration: underline;
+}
+
+.ap {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 210px;
+    padding-left: 117px;
+    margin: -200px 100px 0px -37px;
+}
+
+.pinturaC1 {
+    padding-top: 10px;
+    padding-left: 110px;
+}
+
+.ap1 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 415px;
+    width: 1000px;
+    margin: -120px 0px 50px -40px;
+}
+
+.nombrePC2 {
+    color: rgb(0, 152, 100);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 60px;
+    padding-left: 50px;
+    font-weight: 600;
+}
+
+.mg2 {
+    padding-top: 30px;
+    padding-left: 1250px;
+}
+
+.bioC2 {
+    text-align: right;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 190px;
+    width: 1150px;
+    margin: -230px 0px 50px 60px;
+}
+
+.obraC2 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 1155px;
+    margin: -5px 0px 0px 85px;
+    color: rgb(255, 165, 0);
+    text-decoration: underline;
+}
+
+.heh {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 210px;
+    padding-left: 1227px;
+    margin: -200px 0px 0px 0px;
+}
+
+.pinturaC2 {
+    padding-top: 10px;
+    padding-left: 1220px;
+}
+
+.heh2 {
+    text-align: right;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 500px;
+    width: 1200px;
+    margin: -150px 0px 50px -25px;
+}
+
+
+
+.nombrePC3 {
+    color: rgb(0, 152, 100);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 40px;
+    padding-left: 50px;
+    font-weight: 600;
+}
+
+.mb3 {
+    padding-top: 10px;
+    padding-left: 170px;
+}
+
+.bioC3 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 425px;
+    width: 1300px;
+    margin: -227px 0px 15px 5px;
+}
+
+.obraC3 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 175px;
+    color: rgb(255, 165, 0);
+    text-decoration: underline;
+}
+
+.bf {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 210px;
+    padding-left: 220px;
+    margin: -200px 100px 0px -37px;
+}
+
+.pinturaC3 {
+    padding-top: 10px;
+    padding-left: 180px;
+}
+
+.bf3 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 450px;
+    width: 1400px;
+    margin: -247px 0px 50px -40px;
+}
+
+
+
+.nombrePC4 {
+    color: rgb(0, 152, 100);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 60px;
+    padding-left: 50px;
+    font-weight: 600;
+}
+
+.tm4 {
+    padding-top: 30px;
+    padding-left: 1250px;
+}
+
+.bioC4 {
+    text-align: right;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 190px;
+    width: 1200px;
+    margin: -180px 0px 0px 10px;
+}
+
+.obraC4 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 1155px;
+    margin: 60px 0px 0px 95px;
+    color: rgb(255, 165, 0);
+    text-decoration: underline;
+}
+
+.vida {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 210px;
+    padding-left: 1280px;
+    margin: -200px 0px 0px 40px;
+}
+
+.pinturaC4 {
+    padding-top: 10px;
+    padding-left: 1210px;
+}
+
+.vida4 {
+    text-align: right;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 600px;
+    width: 1200px;
+    margin: -150px 0px 50px -35px;
+}
+
+
+
+
+
+.nombrePC5 {
+    color: rgb(0, 152, 100);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 40px;
+    padding-left: 50px;
+    font-weight: 600;
+}
+
+.sa5 {
+    padding-top: 50px;
+    padding-left: 170px;
+}
+
+.bioC5 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 520px;
+    width: 1500px;
+    margin: -235px 0px 0px -40px;
+}
+
+.obraC5 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 195px;
+    margin: -30px 0px 0px 2px;
+    color: rgb(255, 165, 0);
+    text-decoration: underline;
+}
+
+.lc {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 210px;
+    padding-left: 245px;
+    margin: -200px 100px 0px -37px;
+}
+
+.pinturaC5 {
+    padding-top: 10px;
+    padding-left: 155px;
+}
+
+.lc5 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 400px;
+    width: 1150px;
+    margin: -185px 0px 50px 75px;
+}
+
+
+
+.nombrePC6 {
+    color: rgb(0, 152, 100);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 60px;
+    padding-left: 50px;
+    font-weight: 600;
+}
+
+.js6 {
+    padding-top: 35px;
+    padding-left: 1200px;
+}
+
+.bioC6 {
+    text-align: right;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 190px;
+    width: 1150px;
+    margin: -200px 0px 50px 10px;
+}
+
+.obraC6 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 1155px;
+    margin: -30px 0px 0px 85px;
+    color: rgb(255, 165, 0);
+    text-decoration: underline;
+}
+
+.pt {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 210px;
+    padding-left: 1227px;
+    margin: -200px 0px 0px 39px;
+}
+
+.pinturaC6 {
+    padding-top: 10px;
+    padding-left: 1195px;
+}
+
+.pt6 {
+    text-align: right;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 500px;
+    width: 1400px;
+    margin: -186px 0px 50px -245px;
+}
+
+
+
+
+
+nav {
+    background: rgb(255, 165, 0);
+}
+
+header {
+    background: rgb(38, 146, 196);
+
+}
+
+footer {
+
+    line-height: 5cm;
+    background: rgb(38, 146, 196);
+
+}
+
+.imagenfooter {
+    padding-left: 25em;
+    margin-top: 5px;
+}
+
+.contactofooter {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 739px;
+    margin-top: -175px;
+}
+
+.logoemail {
+    margin: 20px 0px 0px 662px;
+}
+
+.email1 {
+    color: rgb(29, 27, 27);
+    font-size: 18px;
+    font-weight: 700;
+    margin: -28px 0px 0px 705px;
+}
+
+.email2 {
+    color: rgb(29, 27, 27);
+    font-size: 17px;
+    font-weight: 700;
+    margin: -28px 0px 0px 706px;
+}
+
+.compartir {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 33em;
+    margin-top: -140px;
+}
+
+.logofacebook {
+    margin: 20px 0px 0px 995px;
+}
+
+.logotwiter {
+    margin: -55px 0px 0px 1040px;
+}
+
+.logolinkedin {
+    margin: -103px 0px 0px 1087px;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.formulariocompra{
+    font-size: 25px;
+    font-family: "roboto";
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(255, 152, 25, 0.8883928571428571) 18%, rgba(255, 148, 16, 1) 43%, rgba(255, 128, 0, 1) 80%, rgba(223, 97, 0, 1) 100%);
+    padding: 50px 230px;
+    margin: 30px 100px 100px 350px;
+    width: 35em;
+
+}
+
+
+.formulariocompra input[type="checkbox"] {
+    display: none;
+}
+.formulariocompra .checkbox label {
+    color: #001f3f ;
+    padding: 5px 15px 5px 55px;
+    display: inline-block;
+    position: relative;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.formulariocompra .checkbox label:hover {
+    background: rgba(0,31,63,0.1);
+}
+.formulariocompra .checkbox label:before {
+content: "";
+width: 20px;
+height: 20px;
+display: inline-block;
+background: none;
+border: 3px solid #001f3f;
+border-radius: 50%;
+position: absolute;
+left: 20px;
+top: 15px;
+}
+.formulariocompra .checkbox label:before {
+    border-radius: 3px;
+}
+.formulariocompra input[type="checkbox"]:checked + label {
+padding: 5px 15px;
+background: #12406f;
+border-radius: 2px;
+color:#ffff;
+}
+.formulariocompra input[type="checkbox"]:checked + label:before {
+display: none;
+
+}
+
+
+.nombrecomprador {
+    padding: 50px 0px 0px 57px;
+}
+
+.apellidocomprador {
+    padding: 20px 0px 0px 3px;
+}
+
+.tienda {
+    color:rgb(38,52,121);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    padding: 10px 0px 40px 155px;
+}
+
+.direccionenvio {
+    padding: 20px 0px 0px 0px;
+}
+
+.numerocontacto {
+    padding: 20px 0px 0px 0px;
+}
+
+
+.pais {
+    padding: 47px 0px 0px 29px;
+}
+
+.botonComprar {
+    padding: 50px 0px 0px 77px;
+}
+
+.btn-success {
+    width: 150px;
+    height: 60px;
+}
+.c {
+    border-radius: 5px;
+    border: 3px solid rgb(38,52,121);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(17, 17, 17);
+    background-color: rgb(201, 201, 201);
+}
+.nombrecomprador {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    color: rgb(248, 245, 245);
+}
+.apellidocomprador {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(248, 245, 245);
+}
+.direccionenvio {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(248, 245, 245);
+}
+.numerocontacto {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(248, 245, 245);
+}
+.pais {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(248, 245, 245);
+}

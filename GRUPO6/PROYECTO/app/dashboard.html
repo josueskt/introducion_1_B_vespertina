@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PROYECTO</title>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link rel="stylesheet" href="../web/static/css/estilos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body class="body2">
+  <header>
+    <div class="row">
+      <div class="col col-md-3">
+        <img class="logo" src="/web/static/img/logo.png" alt="" width="" height="100">
+      </div>
+      <div class="col col-md-9">
+        <h1>Obras de Arte Ecuatorianas</h1>
+      </div>
+    </div>
+  </header>
+  <nav class="">
+    <a class="opcionRegresar" href="../app/login.html">CERRAR</a>
+  </nav>
+
+
+  <div class="formulariocompra">
+    <div class="tienda">
+      TIENDA
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" name="checkbox" id="checkbox1" value="" class="">
+      <label for="checkbox1">Cabeza Azul - Precio: 700$ </label><br>
+
+      <input type="checkbox" name="checkbox2" id="checkbox2" value="" class="">
+      <label for="checkbox2">Inti -Raimi - Precio: 500$ </label><br>
+
+      <input type="checkbox" name="checkbox3" id="checkbox3" value="" class="">
+      <label for="checkbox3">Vida - Precio: 740$</label><br>
+
+      <input type="checkbox" name="checkbox4" id="checkbox4" value="" class="">
+      <label for="checkbox4">Las Floristas - Precio: 150$ </label><br>
+
+      <input type="checkbox" name="checkbox5" id="checkbox5" value="" class="">
+      <label for="checkbox5">Bosque Festivo - Precio: 560$ </label><br>
+
+      <input type="checkbox" name="checkbox6" id="checkbox6" value="" class="">
+      <label for="checkbox6">Princesa Toa - Precio: 1000$ </label><br>
+
+      <input type="checkbox" name="checkbox7" id="checkbox7" value="" class="">
+      <label for="checkbox7">El Cristo - Precio: 640$ </label><br>
+
+      <input type="checkbox" name="checkbox8" id="checkbox8" value="" class="">
+      <label for="checkbox8">Batalla de Toros - Precio: 530$ </label><br>
+
+      <input type="checkbox" name="checkbox9" id="checkbox9" value="" class="">
+      <label for="checkbox9">El Rondador - Precio: 770$ </label><br>
+
+      <input type="checkbox" name="checkbox10" id="checkbox10" value="" class="">
+      <label for="checkbox10">La Cuarentena - Precio: 820$ </label>
+
+    </div>
+    <div class="nombrecomprador">
+      <label for="">Nombre Comprador:</label>
+      <input type="text" name="" id="ncomprador" class="c">
+
+      <div class="apellidocomprador">
+        <label for="">Apellido:</label>
+        <input type="text" name="" id="acomprador" class="c">
+
+        <div class="direccionenvio">
+          <label for="">Direccion Envio:</label>
+          <input type="text" name="" id="direccion" class="c">
+
+          <div class="numerocontacto">
+            <label for="">Numero de Contacto:</label>
+            <input type="number" name="" id="ncontacto" class="c">
+
+
+            <div class="pais">
+              Pais
+              <select name="Ubicacion" id="paisEntrega" class="c">
+                <option selected>Ecuador</option>
+                <option>Colombia</option >
+                <option>Peru</option>
+                <option>Chile</option>
+                <option>Argentina</option>
+                <option>Mexico</option>
+                <option>Bolivia</option>
+                <option>Estados Unidos</option>
+              </select>
+            </div>
+
+            <div class="botonComprar">
+              <button type="button" class="btn btn-success" id="" onclick="confirmarDatos()">COMPRAR</button>
+            </div>
+            <script src="static/js/dashboard.js"></script>
+          </div>
+        </div>
+</body>
+</html>
